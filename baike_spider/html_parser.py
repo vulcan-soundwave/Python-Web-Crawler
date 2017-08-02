@@ -39,7 +39,8 @@ class HtmlParser(object):
 		if page_url is None or html_cont is None:
 			return
 
-		soup = BeautifulSoup(html_cont, 'html.parser',from_encoding='utf-8')
+		#soup = BeautifulSoup(html_cont, 'html.parser',from_encoding='utf-8')
+		soup = BeautifulSoup(html_cont, 'html5lib',from_encoding='utf-8')
 		#两个本地方法
 		new_urls = self.__get_new_urls(page_url, soup)
 		new_data = self.__get_new_data(page_url, soup)
