@@ -14,7 +14,9 @@ Sorry, try again.
 [sudo] password for soundwave: 
 Collecting html5lib
   Downloading html5lib-0.999999999-py2.py3-none-any.whl (112kB	)
-    90% |█████████████████████████████   | 102kB 49kB/s eta 0:00:0    99% |████████████████████████████████| 112kB 62kB/s eta 0:00:0    100% |████████████████████████████████| 122kB 61kB/s 
+    90% |█████████████████████████████   | 102kB 49kB/s eta 0:00:0    
+    99% |████████████████████████████████| 112kB 62kB/s eta 0:00:0    
+    100% |████████████████████████████████| 122kB 61kB/s 
 Requirement already satisfied: six in /usr/python/Python3.6.2/lib/python3.6/site-packages (from html5lib)
 Requirement already satisfied: setuptools>=18.5 in /usr/python/Python3.6.2/lib/python3.6/site-packages (from html5lib)
 Collecting webencodings (from html5lib)
